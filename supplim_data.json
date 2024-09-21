@@ -1,0 +1,175 @@
+{
+  "K" : 5 ,   
+  "H_mu": 53.5,  
+  "H_std": 5,  
+  "H_error": 2, 
+
+  "RT_error": 3,
+    
+  "nigaTheraml_Alfa": 0.05, 
+
+  "k_summer": 5,
+  "summerTheta": [0.05, 0.05, 0.1, 0.3, 0.5], 
+   
+  "k_tempNow": 5,
+  "tempNow_Theta": [0.05, 0.05, 0.1, 0.3, 0.5], 
+   
+  "bnoise_mu" : 45,  
+  "bnoise_std" : 5, 
+
+  "outNoiseAlfa": 0.85,
+  "backgNoise_Alfa":0.05, 
+
+  "p_sound_mu": 37, 
+  "p_sound_std": 5,
+  "p_sound_error": 2,
+
+  "k_noiseNow":5,
+  "noiseNow_Theta":[0.05, 0.05, 0.1, 0.3, 0.5],
+    
+  "k_Gnoise":5,
+  "Gnoise_Theta":[0.05, 0.05, 0.1, 0.3, 0.5],
+
+  "nigaNoise_Alfa":0.05,
+ 
+  "T_mu": 22, 
+  "Rt_mu": 24, 
+  "T_std": 3,  
+  "T_skew": 1, 
+  "T_error": 2,
+
+  "speed_mu": 0.2,
+  "speed_std":0.1,
+  "speed_error": 0.08,
+  "speed_skew": 1,
+
+  "acControlAlfa": 0.99,
+
+  "sleepyAlfa": 0.03,
+
+  "co2_mu": 800, 
+  "co2_std": 110,
+  "co2_error": 15,
+  "co2_skew": 2,
+  
+  "o2_mu": 20, 
+  "o2_std": 0.5,
+  "o2_error": 0.1,
+  "o2_skew": 2, 
+
+  "co_mu": 30, 
+  "co_std": 5,
+  "co_error": 1.5,
+  "co_skew": 2,
+
+  "h2_mu": 2, 
+  "h2_std": 1.6,
+  "h2_error": 0.01,
+  "h2_skew": 1,
+
+  "lpg_mu": 3.5, 
+  "lpg_std": 0.4,
+  "lpg_error": 0.01,
+  "lpg_skew": 1,
+ 
+  "alcohol_mu": 0.1, 
+  "alcohol_std": 0.09,
+  "alcohol_error": 0.01,
+  "alcohol_skew": 2,
+  
+  "nitric_mu": 3.5, 
+  "nitric_std": 0.4,
+  "nitric_error": 0.01,
+  "nitric_skew": 1,
+
+  "ch2o_mu": 0.15, 
+  "ch2o_std": 0.09,
+  "ch2o_error": 0.005,
+  "ch2o_skew": 2,
+
+  "voc_mu": 60, 
+  "voc_std": 10,
+  "voc_error": 5,
+  "voc_skew": 2,
+
+  "methane_mu": 3.0,
+  "methane_std": 1.0,  
+  "methane_error": 0.5,
+  "methane_skew": 2, 
+   
+  "odorAlfa": 0.05,
+
+  "odorUsuAlfa": 0.02, 
+
+  "k_vent": 5,  
+  "ventTheta": [0.05, 0.05, 0.1, 0.3, 0.5],  
+  
+  "k_aSpNow": 3,  
+  "aSpNowTheta": [0.17, 0.33, 0.5],  
+ 
+  "lightColor_mu": 3500, 
+  "lightColor_std": 500,
+  "lightColor_error": 10,
+  "lightColor_skew": 1,
+
+  "lightControlAlfa": 0.93,
+
+  "luminaireOFFAlfa": 0.5,
+
+  "BlindOFFAlfa": 0.6,
+
+  "nigaLightAlfa": 0.02, 
+    
+  "k_colorComf": 5, 
+  "colorComfTheta": [0.05, 0.05, 0.1, 0.3, 0.5], 
+     
+  "k_LightFeel": 5, 
+  "LightFeelTheta": [0.05, 0.05, 0.1, 0.3, 0.5], 
+  
+  "k_bImage": 5, 
+  "bImageTheta": [0.05, 0.05, 0.1, 0.3, 0.5],  
+  
+  "k_clothlayer": 5,
+  "clothLayerTheta": [0.4, 0.3, 0.2,0, 0.1],
+  
+  "k_age": 3, 
+  "ageTheta": [0.6, 0.3, 0.1],
+
+  "k_time": 13, 
+  "timeTheta": [0.077, 0.077, 0.077, 0.077, 0.077, 0.077, 0.076, 0.077, 0.077, 0.077, 0.077, 0.077, 0.077],
+
+  "k_selfMetabolism": 3, 
+  "selfMetabolismTheta": [0.33, 0.34, 0.33],
+
+  "k_weight": 6, 
+  "weightTheta": [0.16, 0.17, 0.17, 0.17, 0.17, 0.16],
+
+  "k_bodyActivity": 6, 
+  "bodyActivityTheta": [0.25, 0.21, 0.32, 0.15, 0.07,0],
+
+  "bComfortAlfa": 0.99,
+
+  "k_AcousComfort": 5,
+  "AcousComfortTheta": [0.45, 0.25, 0.15, 0.1, 0.05],
+
+  "k_airQualityComf": 5,
+  "airQualityComf_Theta": [0.45, 0.25, 0.15, 0.1, 0.05],  
+
+  "k_airQuality": 5,
+  "airQuality_Theta": [0.45, 0.25, 0.15, 0.1, 0.05],
+
+  "k_visualComf": 5,
+  "visualComf_Theta": [0.45, 0.25, 0.15, 0.1, 0.05],
+
+  "daylightAlfa": 0.90,
+
+  "lightLevel_mu": 550, 
+  "lightLevel_std": 50,
+  "lightLevel_error": 25,
+  "lightLevel_skew": 2,
+
+  "thermalComfAlfa": 0.90,
+
+  "k_bodyMetab": 3, 
+  "bodyMetab_Theta": [0.2, 0.65, 0.15]
+}
